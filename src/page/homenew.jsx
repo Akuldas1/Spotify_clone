@@ -381,6 +381,7 @@ function Homenew() {
 
                   <div className="text-white text-2xl m-5"><b>Fresh new music</b></div>
                   <div className="desktop:grid-cols-7 laptops:grid-cols-4 tablets:grid-cols-4 mobiles:grid-cols-2 grid gap-8">
+                  <Link to="/p3">
 
                     <div class=" flex items-center justify-center bg-gray-800 h-max ">
 
@@ -399,8 +400,9 @@ function Homenew() {
                       </a>
 
                     </div>
+</Link>
 
-
+                    <Link to="/p4">
 
 
                     <div class=" flex items-center justify-center bg-gray-800 h-max ">
@@ -420,6 +422,8 @@ function Homenew() {
                       </a>
 
                     </div>
+                    </Link>
+                    <Link to="/p5">
 
                     <div class=" flex items-center justify-center bg-gray-800 h-max ">
 
@@ -438,6 +442,9 @@ function Homenew() {
                       </a>
 
                     </div>
+                    </Link>
+                    <Link to="/p6">
+
                     <div class=" flex items-center justify-center bg-gray-800 h-max ">
 
 
@@ -455,6 +462,9 @@ function Homenew() {
                       </a>
 
                     </div>
+                    </Link>
+                    <Link to="/p1">
+
                     <div class=" flex items-center justify-center bg-gray-800 h-max ">
 
 
@@ -472,6 +482,9 @@ function Homenew() {
                       </a>
 
                     </div>
+                    </Link>
+                    <Link to="/p2">
+                    
                     <div class=" flex items-center justify-center bg-gray-800 h-max ">
 
 
@@ -489,6 +502,9 @@ function Homenew() {
                       </a>
 
                     </div>
+                    </Link>
+                    <Link to="/p3">
+
                     <div class=" flex items-center justify-center bg-gray-800 h-max ">
 
 
@@ -506,10 +522,11 @@ function Homenew() {
                       </a>
 
                     </div>
-
+</Link>
                   </div>
                   <div className="text-white text-2xl m-5"><b>Today's Biggest Hits</b></div>
                   <div className="desktop:grid-cols-7 laptops:grid-cols-4 tablets:grid-cols-4 mobiles:grid-cols-2 grid gap-8">
+                  <Link to="/p4">
 
                     <div class=" flex items-center justify-center bg-gray-800 h-max ">
 
@@ -528,6 +545,8 @@ function Homenew() {
                       </a>
 
                     </div>
+                    </Link>
+                    <Link to="/p5">
 
                     <div class=" flex items-center justify-center bg-gray-800 h-max ">
 
@@ -546,6 +565,8 @@ function Homenew() {
                       </a>
 
                     </div>
+                    </Link>
+                    <Link to="/p6">
 
                     <div class=" flex items-center justify-center bg-gray-800 h-max ">
 
@@ -564,6 +585,9 @@ function Homenew() {
                       </a>
 
                     </div>
+                    </Link>
+                    <Link to="/p5">
+
                     <div class=" flex items-center justify-center bg-gray-800 h-max ">
 
 
@@ -581,6 +605,9 @@ function Homenew() {
                       </a>
 
                     </div>
+                    </Link>
+                    <Link to="/p4">
+
                     <div class=" flex items-center justify-center bg-gray-800 h-max ">
 
 
@@ -598,6 +625,9 @@ function Homenew() {
                       </a>
 
                     </div>
+                    </Link>
+                    <Link to="/p3">
+                    
                     <div class=" flex items-center justify-center bg-gray-800 h-max ">
 
 
@@ -615,6 +645,9 @@ function Homenew() {
                       </a>
 
                     </div>
+                    </Link>
+                    <Link to="/p2">
+
                     <div class=" flex items-center justify-center bg-gray-800 h-max ">
 
 
@@ -632,6 +665,7 @@ function Homenew() {
                       </a>
 
                     </div>
+                    </Link>
                   </div> 
 
 
