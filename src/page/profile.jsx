@@ -36,6 +36,9 @@ function Profile() {
                 setData(res.data);
             })
     }, []);
+    const getFirstLetterCapitalized = (str) => {
+        return str.charAt(0).toUpperCase()+ str.slice(1);
+          };
 
     useEffect(() => {
         //  document.body.style.backgroundColor = 'rgb(24 24 27)'; 
@@ -147,7 +150,7 @@ function Profile() {
                                 {data?.map((item, index) => (
                             <React.Fragment key={index}>
                       
-                            <p className='align-center font-bold text-7xl w-10'>{item.username}</p>
+                            <h1 className='align-center font-bold text-7xl w-10'>{getFirstLetterCapitalized(item.username)}</h1>
                                 {/* <ChevronDownIcon className="-mr-1 h-5 w-5 text-gray-400" aria-hidden="true" /> */}
                             
                         </React.Fragment>
