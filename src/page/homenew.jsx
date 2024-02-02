@@ -241,6 +241,8 @@ function Homenew() {
                   </div>
                   <div className="text-white text-2xl m-5 "><b>Made For You</b></div>
                   <div className="desktop:grid-cols-7 laptops:grid-cols-5 tablets:grid-cols-4 mobiles:grid-cols-2 grid gap-8">
+                  <Link to="/p2">
+
                     <div class=" flex items-center justify-center bg-gray-800 h-max ">
 
 
@@ -258,9 +260,10 @@ function Homenew() {
                       </a>
 
                     </div>
+</Link>
 
 
-
+<Link to="/p1">
 
                     <div class=" flex items-center justify-center bg-gray-800 h-max ">
 
@@ -279,7 +282,7 @@ function Homenew() {
                       </a>
 
                     </div>
-
+</Link>
                     <Link to="/p1">
 
                     <div class=" flex items-center justify-center bg-gray-800 h-max ">
