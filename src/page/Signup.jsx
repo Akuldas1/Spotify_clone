@@ -1,6 +1,6 @@
 import React, { useEffect,useState } from "react";
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 export default function Signup() {
     useEffect(() => {
@@ -79,7 +79,7 @@ export default function Signup() {
                 </div>
                 <hr className=" w-80"></hr>
                 <div className=" flex gap-2">
-                    <p className=" text-stone-400 font-sans">Already have an account?</p><a className=" text-white underline underline-offset-1" href=""> Log in here</a>
+                    <p className=" text-stone-400 font-sans">Already have an account?</p><Link to="/login"><a className=" text-white underline underline-offset-1" href=""> Log in here</a></Link>
                 </div>
                 <div>
                     <p className=" text-xs text-stone-400 text-center pb-5">This site is protected by reCAPTCHA and the Google<br />

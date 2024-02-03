@@ -230,13 +230,33 @@ function Homenew() {
                                                 <div className="  text-xl">
                     <div className=" w-screen   text-white text-3xl pt-2 "><b>Good Morning</b></div><br></br>
                     <div className="h-auto w-auto   gap-x-2 gap-y-2  grid-cols-3  desktop:grid-cols-3 laptops:grid-cols-3 tablets:grid-cols-3 mobiles:grid-cols-2 grid">
+                      <Link to="/p1">
                       <div className=" song h-14 flex bg-neutral-700 hover:bg-neutral-800 duration-500 rounded-md text-white  "><img src="/src/assets/nivin.avif" alt="" className="h-14 w-14  pr-2 box-content" /> <h1 className="pt-2 text-base font-sans">Premam x kadhal</h1> </div>
+                      </Link>
+                      <Link to="/p2">
                       <div className=" song h-14 flex bg-neutral-700 hover:bg-neutral-800 rounded-md duration-500 text-white "><img src="/src/assets/feelgood.jpg" alt="" className="h-14 w-14  pr-2 box-content" /><h1 className="pt-2 text-base font-sans">Feel Good Songs</h1></div>
-                      <div className=" song h-14 flex bg-neutral-700 hover:bg-neutral-800 rounded-md duration-500 text-white "><img src="/src/assets/atm.jpg" alt="" className="h-14 w-14  pr-2 box-content" /><h1 className="pt-2 text-base font-sans ">Any Time Hits</h1></div>
+                      </Link>
 
+                      <Link to="/p3">
+
+                      <div className=" song h-14 flex bg-neutral-700 hover:bg-neutral-800 rounded-md duration-500 text-white "><img src="/src/assets/atm.jpg" alt="" className="h-14 w-14  pr-2 box-content" /><h1 className="pt-2 text-base font-sans ">Any Time Hits</h1></div>
+                      </Link>
+
+                      <Link to="/p4">
+                      
                       <div className="song h-14 flex bg-neutral-700 hover:bg-neutral-800 rounded-md duration-500 text-white "><img src="/src/assets/ln.webp" alt="" className="h-14 w-14  pr-2 box-content" /><h1 className="pt-2 text-base font-sans">Lonely Hits</h1></div>
+                      </Link>
+
+                      <Link to="/p5">
+
                       <div className="song h-14 flex bg-neutral-700 hover:bg-neutral-800 rounded-md duration-500 text-white "><img src="/src/assets/trt.jpeg" alt="" className="h-14 w-14  pr-2 box-content" /><h1 className="pt-2 text-base font-sans">Tamil Road Trips</h1></div>
+                      </Link>
+
+                      <Link to="">
+
                       <div className="song h-14 flex bg-neutral-700 hover:bg-neutral-800 rounded-md duration-500 text-white"><img src="/src/assets/MPS.jpg" alt="" className="h-14 w-14 pr-2 box-content " /><h1 className="pt-2 text-base font-sans">Malayalam Songs</h1></div>
+                      </Link>
+
                     </div>
                   </div>
                   <div className="text-white text-2xl m-5 "><b>Made For You</b></div>

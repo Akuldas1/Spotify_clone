@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import logo from "../assets/images/logo.png"
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 function Login() {
     useEffect(() => {
@@ -96,7 +96,7 @@ function Login() {
                             <hr></hr>
                             <br></br>
                             <div className="flex gap-2">
-                                <p className=' pl-16 text-sm font-bold'>Don't have an account?</p> <a href='' className="underline underline-offset-1 text-center text-white hover:text-green-500 text-sm font-bold"> Signup for Spotify</a>
+                                <p className=' pl-16 text-sm font-bold'>Don't have an account?</p> <Link to="/signup"><a href='' className="underline underline-offset-1 text-center text-white hover:text-green-500 text-sm font-bold"> Signup for Spotify</a></Link>
                                 <br></br>
                             </div>
                         </div>
